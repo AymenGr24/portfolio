@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Aymen Griri</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:griri.aymen@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Aymen 👋</h2>
+        <p> Pursuing a career in Information Technology has always
+            been a passion of mine and this has only grown with years of experience 
+            which led me to explore various certifications. 
+            Understanding the complexity of creating and maintaining 
+            websites has only grown in importance especially in our current 
+            society with so many bugs being exploited. This led me to study 
+             and achieve my master’s in computer science. </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#experience">
+            <i class="fa-solid fa-pen"></i>
+            <span>Experience</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/headshot.webp" alt="Aymen's headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+            As a dedicated Software Engineer, I possess a strong foundation in 
+            software development, with expertise in full-stack development, 
+            cloud computing, and API design. Proficient in languages including 
+            HTML, CSS, JavaScript, Node.js, React, Python, Swift, and Angular,
+            and a proficient in workstation setup and computer hardware/software applications. 
+        </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/python-logo.webp" alt="python logo">
+          <span>Python</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/swift-logo.webp" alt="swift logo">
+          <span>Swift</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/angular-logo.webp" alt="angular logo">
+          <span>Angular</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Experience -->
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/experience-headshot.webp">
+          <p>Aymen Griri</p>
+          <p>Senior IT Service Engineer</p>
+        </div>
+
+        <div class="text">
+          "During my tenure at SBE Ltd, I honed my skills in troubleshooting and resolving hardware and software issues, ensuring utmost customer satisfaction. As a Senior IT Service Engineer, I efficiently managed a wide range of technical queries while maintaining a high level of professionalism and communication with clients."
+          <br><br> <br> <h3>Links to portfolio projects:</h3>
+          <br>Project 1: <a href="https://github.com/AymenGr24/project1.git">https://github.com/AymenGr24/project1.git</a>
+          <br>Project 2: <a href="https://github.com/AymenGr24/project2.git">https://github.com/AymenGr24/project2.git</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+            I am always eager to connect with like-minded professionals, 
+            collaborate on exciting projects, and explore new opportunities 
+            in software engineering. Whether you have a challenging problem 
+            that needs solving, a project idea, or simply want to discuss 
+            technology, <br>
+            Please feel free to reach out.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
